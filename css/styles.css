@@ -6999,6 +6999,10 @@ textarea.form-control-lg {
   margin-bottom: 3rem !important;
 }
 
+.mb-7 {
+  margin-top: 7rem !important;
+}
+
 .mb-auto {
   margin-bottom: auto !important;
 }
@@ -11013,7 +11017,7 @@ header.masthead h1, header.masthead .h1 {
 }
 
 .contact-section {
-  display: flex;
+  display:flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -11045,6 +11049,7 @@ margin-top: 5px;
   width: 100%;
   max-width: 980px;
   flex-wrap: wrap;
+  margin-top:3rem;
 }
 
 .contact-details {
