@@ -351,6 +351,7 @@ button,
 [type=submit] {
   -webkit-appearance: button;
 }
+
 button:not(:disabled),
 [type=button]:not(:disabled),
 [type=reset]:not(:disabled),
@@ -7374,6 +7375,8 @@ textarea.form-control-lg {
 
 .text-white {
   color: #fff !important;
+  justify-content: center;
+  align-items: center;
 }
 
 .text-body {
