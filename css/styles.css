@@ -7004,6 +7004,10 @@ textarea.form-control-lg {
   margin-top: 7rem !important;
 }
 
+.mb-8 {
+  margin-top: 2rem !important;
+}
+
 .mb-auto {
   margin-bottom: auto !important;
 }
