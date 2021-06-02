@@ -1,4 +1,4 @@
-const tl = gsap.timeline({ defaults: { ease: "power1.out" } });
+const tl = gsap.timeline({ defaults: { ease: "power1.out" }, delay: 1 });
 tl.fromTo(".h-100", { opacity: 0 }, { opacity: 1, duration: 1.4 });
 tl.fromTo(".mb-5", { opacity: 0 }, { opacity: 1, duration: 1, delay:0.5 }, "-=1");
 tl.fromTo(".navbar-brand", { opacity: 0 }, { opacity: 1, duration: 1, delay:0.5 }, "-=1");
